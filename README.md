@@ -1,6 +1,6 @@
 # mortgage-calculator
 
-
+STEP 1:
 Create a mortgage calculator to calculate the monthly mortgage payment.
     Input the Principal (p), Annual Interest Rate (r), & Period (n).
     
@@ -16,3 +16,14 @@ Create a mortgage calculator to calculate the monthly mortgage payment.
     Equation: r / 12 / 100.
     
     Note: Changes will be made incrementally by refacturing the code.
+STEP 2:
+Add error handling for each input
+
+    Principal must be between $1K - $1M
+
+    Rate greater than 0 less than or equal 30
+
+    Period between 0 and 30
+Note: Utilized control flow (loops, conditionals, & operators.)
+
+

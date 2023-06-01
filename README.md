@@ -26,4 +26,12 @@ Add error handling for each input
     Period between 0 and 30
 Note: Utilized control flow (loops, conditionals, & operators.)
 
+STEP 3:
+Refactor - Remove repetitive code
 
+    Refactored main method by removing the multiple/repetitive while loops.
+
+    Created a separate method (readInputs), with parameters, to handle the input 
+    with only 1 while loop that may be used interchageable for each input.
+
+    

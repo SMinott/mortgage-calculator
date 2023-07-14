@@ -5,7 +5,7 @@ Create a mortgage calculator to calculate the monthly mortgage payment.
     Input the Principal (p), Annual Interest Rate (r), & Period (n).
     
     M = Mortgage must be expressed as a dollar amount with sign & decimal (Math method(s))
-    Equation: M = P * [r(1+r)^n] / [(1+r)^n -1]
+    Equation: M = p * [r(1+r)^n] / [(1+r)^n -1]
     
     p = total amount owed.
     
@@ -34,4 +34,12 @@ Refactor - Remove repetitive code
     Created a separate method (readInputs), with parameters, to handle the input 
     with only 1 while loop that may be used interchageable for each input.
 
-    
+STEP 4: Amortization schedule.  That is, balance (B) after each payment.
+Input the Principal (p), Annual Interest Rate (r), & Period (n), Payments made (s)
+
+    B = p * [(1 + r)^n - (1 + r)^s] / [(1 + r)^n - 1]
+Many of the variables used in the mortgageNum method is needed. So:
+1. Move the FINAL variables to the class level & added a static modifier 
+since methods that use them are static.
+
+
